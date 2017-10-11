@@ -5,7 +5,7 @@ var request = require('request');
 var gpio = require('rpi-gpio');
 const mqtt = require('mqtt'); 
 var admin = require("firebase-admin");
-var serviceAccount = require("/home/pi/Documents/IOT/fiap-iot-19d66-firebase-adminsdk-cownw-af8e6b39e7.json");
+var serviceAccount = require("xxxx");
 
 var defaultApp = admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
